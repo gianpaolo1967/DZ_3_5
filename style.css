@@ -1,0 +1,19 @@
+body {
+	background: blue;
+}
+@keyframes h1 {
+	from {font-size: 30px;  color: blue; margin: 0px 0px}
+	to {font-size: 100px; color: red; margin: 44% 44%}
+}
+@-webkit-keyframes h1 {
+   from {font-size: 30px;  color: blue; margin: 0px 0px}
+	to {font-size: 100px; color: red; margin: 44% 44%}
+}
+
+h1 {
+	margin: 0px 0px;
+	font-size: 30px;
+	color: blue;
+	animation-name: h1;
+	animation-duration: 8s;
+}
